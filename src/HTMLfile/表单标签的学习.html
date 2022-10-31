@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<form action="../Main.java" method="post">
+    name:     <input name = "nickname"/><br/>
+    password: <input type="password" name="pwd"/><br/>
+    sex: <input type="radio" name="gender" value="1" checked/>female
+    <input type="radio" name="gender" value="0"/>male<br/>
+    hobby: <input type="checkbox" name="hobby" value="basketball">basketball
+    <input type="checkbox" name="hobby" value="football">football
+    <input type="checkbox" name="hobby" value="baseball">baseball<br/>
+    star: <select name="star">
+    <option value="1">
+        goose
+    </option>
+    <option value="2">
+        gold bull
+    </option>
+    <option value="3" selected>
+    shooting
+</option>
+</select><br/>
+    <textarea name="remark" rows="4" cols="30">
+
+    </textarea><br/>
+    <input type="submit" value="sign up"/>
+</form>
+</body>
+</html>
